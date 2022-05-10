@@ -18,7 +18,7 @@ load("data/aarhus_mun.rda") #parishes in Aarhus municipality (for the boarders o
 
 load("data/target_gym_parish.rda") #the number of target group per fitness center in the parish
 
-## Files to load
+## Files to load (see "load" folder)
 
 -Fitness_extra.csv #additional fitness centers found from https://www.facilitetsdatabasen.dk/
 
