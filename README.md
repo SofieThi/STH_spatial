@@ -12,11 +12,11 @@ Sofie Thinggaard au613703
 
 load("data/data_gym.rda") #OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
-load("data/data_sogn.rda") #number of fitness center in each parish and how many in the target group lives there
+load("data/data_sogn.rda") #number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
 
-load("data/aarhus_mun.rda") #parishes in Aarhus municipality (for the boarders of the map)
+load("data/aarhus_mun.rda") #parishes ONLY in Aarhus municipality (for the parish boarders of the map)
 
-load("data/target_gym_parish.rda") #the number of target group per fitness center in the parish
+load("data/target_gym_parish.rda") #the number of target group (women aged 20-39) per fitness center in the parish
 
 ## Files to load (see "load" folder)
 
