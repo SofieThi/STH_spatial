@@ -22,7 +22,7 @@ load("data/target_gym_parish.rda") #the number of target group per fitness cente
 
 -Fitness_extra.csv #additional fitness centers found from https://www.facilitetsdatabasen.dk/
 
--sogn.xlsx #how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0
+-sogn_fin.xlsx #how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0
 
 -two files from Github: https://github.com/sebastianbarfort/mapDK/tree/master/data?fbclid=IwAR0S7aB9PMYNQFZXHuHLn-qQQRYed2sdA4LVFoGUQ-v2s0oXb6VEIuI-j8s
 
