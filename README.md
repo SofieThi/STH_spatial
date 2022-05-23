@@ -8,7 +8,7 @@ Sofie Thinggaard au613703
 
 ## Structure
 
-## Datasets made in the markdown file
+## Datasets made in the markdown file (see "datasets_made" folder)
 
 load("data/data_gym.rda") #OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
