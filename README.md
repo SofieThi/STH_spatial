@@ -6,7 +6,24 @@ Sofie Thinggaard au613703
 
 201909063@post.au.dk
 
+## Methods
+
+
+
 ## Structure
+
+This repository has the following directory structure:
+
+| Column | Description|
+|--------|:-----------|
+```datasets_made```| the various results of the code
+```load``` | files to load 
+```output``` | the final map showing the top three optimal locations in Aarhus for a gym with women (20-39) as target group
+
+
+## Usage (reproducing results)
+
+In order to run this code, clone the repository and load the data from the "load" folder into the R space. 
 
 ## Datasets made in the markdown file (see "datasets_made" folder)
 
@@ -29,3 +46,11 @@ load("data/target_gym_parish.rda") #the number of target group (women aged 20-39
 parish.rda #the parish boarder coordinates for all parishes in Denmark
 
 municipality.rda #the municipality boarder coordinates for all municipalities in Denmark
+
+## Discussion of results
+
+Results: 
+
+## Link to repository on Github
+
+
