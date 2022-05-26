@@ -6,10 +6,6 @@ Sofie Thinggaard au613703
 
 201909063@post.au.dk
 
-## Methods
-
-
-
 ## Structure
 
 This repository has the following directory structure:
@@ -47,10 +43,7 @@ parish.rda #the parish boarder coordinates for all parishes in Denmark
 
 municipality.rda #the municipality boarder coordinates for all municipalities in Denmark
 
-## Discussion of results
-
-Results: 
 
 ## Link to repository on Github
 
-
+https://github.com/SofieThi/STH_spatial 
