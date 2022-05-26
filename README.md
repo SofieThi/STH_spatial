@@ -12,8 +12,8 @@ This repository has the following directory structure:
 
 | Column | Description|
 |--------|:-----------|
-```datasets_made```| the various results of the code
-```load``` | files to load 
+```datasets_made```| the various datasets made in the rmd
+```load``` | files to load in order to run the code
 ```output``` | the final map showing the top three optimal locations in Aarhus for a gym with women (20-39) as target group
 
 
