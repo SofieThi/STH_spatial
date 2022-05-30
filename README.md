@@ -27,7 +27,7 @@ In order to run this code, clone the repository and load the data from the "load
 
 load("datasets_made/data_gym.rda") = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
-load("datasets_made/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
+load("datasets_made/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there + an id column where the parish has been written in lowercase and without æøå - in order to match the municipality.rmd and parish.rmd data
 
 load("datasets_made/target_gym_parish.rda") = the number of target group (women aged 20-39) per fitness center in the parish + coordinates of the parishes boarders (with other municipalities' parishes that happens to have the same name as Aarhus' parishes - these gets removed in the aarhus_mun data)
 
