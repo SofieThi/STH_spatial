@@ -25,7 +25,7 @@ In order to run this code, clone the repository and load the data from the "load
 
 ## Datasets made in the markdown file (see "datasets_made" folder)
 
-data_gym.rda = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
+data_gym.rda = OSM fitness center data without NAs and duplicates and flipped longitude and latitude coordinates + the parish it is located in
 
 data_sogn.rda = number of fitness center in each parish (gyms column) and how many in the target group (women aged 20-39) lives there (Personer column)
 
