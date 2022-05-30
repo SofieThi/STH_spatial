@@ -21,7 +21,7 @@ This repository has the following directory structure:
 
 ## Usage (reproducing results)
 
-In order to run this code, clone the repository and load the data from the "load" folder into the R space. The code is called: STH_fitness_center.Rmd
+In order to run this code, clone the repository and load the data from the "load" folder into the R space. The code is called: STH_fitness_center.Rmd. A knitted html version is also available
 
 ## Datasets made in the markdown file (see "datasets_made" folder)
 
