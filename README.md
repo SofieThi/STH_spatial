@@ -27,17 +27,17 @@ In order to run this code, clone the repository and load the data from the "load
 
 load("datasets_made/data_gym.rda") = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
-load("datasets_made/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there + an id column where the parish has been written in lowercase and without æøå - in order to match the municipality.rmd and parish.rmd data
+load("datasets_made/data_sogn.rda") = number of fitness center in each parish (gyms column) and how many in the target group (women aged 20-39) lives there (Personer column)
 
 load("datasets_made/target_gym_parish.rda") = the number of target group (women aged 20-39) per fitness center in the parish + coordinates of the parishes boarders (with other municipalities' parishes that happens to have the same name as Aarhus' parishes - these gets removed in the aarhus_mun data)
 
-load("datasets_made/aarhus_mun.rda") = parishes ONLY in Aarhus municipality (for the parish boarders of the map)
+load("datasets_made/aarhus_mun.rda") = the information from target_gym_parish.rmd with ONLY the parishes in Aarhus municipality (for the parish boarders of the map)
 
 ## Files to load (see "load" folder)
 
 -Fitness_extra.csv = additional fitness centers found from https://www.facilitetsdatabasen.dk/
 
--sogn_fin.xlsx = how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0
+-sogn_fin.xlsx = how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0 + an id column where the parish has been written in lowercase and without æøå - in order to match the municipality.rmd and parish.rmd data
 
 -two files from Github: https://github.com/sebastianbarfort/mapDK/tree/master/data?fbclid=IwAR0S7aB9PMYNQFZXHuHLn-qQQRYed2sdA4LVFoGUQ-v2s0oXb6VEIuI-j8s
 
