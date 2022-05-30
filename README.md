@@ -25,13 +25,13 @@ In order to run this code, clone the repository and load the data from the "load
 
 ## Datasets made in the markdown file (see "datasets_made" folder)
 
-load("data/data_gym.rda") = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
+load("datasets_made/data_gym.rda") = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
-load("data/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
+load("datasets_made/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
 
-load("data/aarhus_mun.rda") = parishes ONLY in Aarhus municipality (for the parish boarders of the map)
+load("datasets_made/target_gym_parish.rda") = the number of target group (women aged 20-39) per fitness center in the parish + coordinates of the parishes boarders (with other municipalities' parishes that happens to have the same name as Aarhus' parishes - these gets removed in the aarhus_mun data)
 
-load("data/target_gym_parish.rda") = the number of target group (women aged 20-39) per fitness center in the parish
+load("datasets_made/aarhus_mun.rda") = parishes ONLY in Aarhus municipality (for the parish boarders of the map)
 
 ## Files to load (see "load" folder)
 
