@@ -25,25 +25,25 @@ In order to run this code, clone the repository and load the data from the "load
 
 ## Datasets made in the markdown file (see "datasets_made" folder)
 
-load("data/data_gym.rda") #OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
+load("data/data_gym.rda") = OSM fitness center data without NAs and duplicates and flipped long lat coordinates + the parishes it is located in + additional found fitness centers
 
-load("data/data_sogn.rda") #number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
+load("data/data_sogn.rda") = number of fitness center in each parish and how many in the target group (women aged 20-39) lives there
 
-load("data/aarhus_mun.rda") #parishes ONLY in Aarhus municipality (for the parish boarders of the map)
+load("data/aarhus_mun.rda") = parishes ONLY in Aarhus municipality (for the parish boarders of the map)
 
-load("data/target_gym_parish.rda") #the number of target group (women aged 20-39) per fitness center in the parish
+load("data/target_gym_parish.rda") = the number of target group (women aged 20-39) per fitness center in the parish
 
 ## Files to load (see "load" folder)
 
--Fitness_extra.csv #additional fitness centers found from https://www.facilitetsdatabasen.dk/
+-Fitness_extra.csv = additional fitness centers found from https://www.facilitetsdatabasen.dk/
 
--sogn_fin.xlsx #how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0
+-sogn_fin.xlsx = how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0
 
 -two files from Github: https://github.com/sebastianbarfort/mapDK/tree/master/data?fbclid=IwAR0S7aB9PMYNQFZXHuHLn-qQQRYed2sdA4LVFoGUQ-v2s0oXb6VEIuI-j8s
 
-parish.rda #the parish boarder coordinates for all parishes in Denmark
+parish.rda = the parish boarder coordinates for all parishes in Denmark
 
-municipality.rda #the municipality boarder coordinates for all municipalities in Denmark
+municipality.rda = the municipality boarder coordinates for all municipalities in Denmark
 
 
 ## Link to repository on Github
