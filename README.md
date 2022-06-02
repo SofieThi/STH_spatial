@@ -35,7 +35,7 @@ aarhus_mun.rda = the information from target_gym_parish.rmd with ONLY the parish
 
 ## Files to load (see "load" folder)
 
--Fitness_extra.csv = additional fitness centers found from https://www.facilitetsdatabasen.dk/ and their parishes from https://sogn.dk/
+-Fitness_ekstra.csv = additional fitness centers found from https://www.facilitetsdatabasen.dk/ and their parishes from https://sogn.dk/
 
 -sogn_fin.xlsx = how many of the target group (women between 20-39 years old) that lives in the various parishes in Aarhus municipality from https://www.statbank.dk/statbank5a/SelectVarVal/Define.asp?Maintable=KM5&PLanguage=0 + an id column where the parish has been written in lowercase and without æøå - in order to match the municipality.rmd and parish.rmd data
 
